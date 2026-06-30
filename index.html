@@ -3,42 +3,42 @@
     #gvm-university-peer-ranking{--orange:#ef5b00;--blue:#0097b7;--blue2:#70b6d5;--ink:#111;--muted:#6b7280;--line:#d8c1ad;--cream:#f2ebe4;--soft:#fff8f2;--shadow:0 16px 38px rgba(16,24,40,.10);font-family:"Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;max-width:1120px;margin:28px auto;color:var(--ink);}
     #gvm-university-peer-ranking *{box-sizing:border-box;}
     #gvm-university-peer-ranking .upr-card{background:#fff;border-radius:22px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(216,193,173,.65);}
-    #gvm-university-peer-ranking .upr-head{padding:28px 30px 22px;background:linear-gradient(135deg,#fff 0%,#fff6ee 100%);border-bottom:1px solid rgba(216,193,173,.65);}
-    #gvm-university-peer-ranking .upr-kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(239,91,0,.10);color:#c94d00;font-size:14px;font-weight:800;letter-spacing:.04em;margin-bottom:12px;}
-    #gvm-university-peer-ranking .upr-title{font-size:34px;line-height:1.25;font-weight:900;margin:0 0 8px;letter-spacing:.02em;}
+    #gvm-university-peer-ranking .upr-head{padding:24px 30px 18px;background:linear-gradient(135deg,#fff 0%,#fff6ee 100%);border-bottom:1px solid rgba(216,193,173,.65);text-align:center;}
+    #gvm-university-peer-ranking .upr-kicker{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(239,91,0,.10);color:#c94d00;font-size:14px;font-weight:800;letter-spacing:.04em;margin:0 auto 12px;}
+    #gvm-university-peer-ranking .upr-title{font-size:34px;line-height:1.25;font-weight:900;margin:0 0 8px;letter-spacing:.02em;text-align:center;}
     #gvm-university-peer-ranking .upr-desc{font-size:16px;line-height:1.7;color:#4b5563;margin:0;}
-    #gvm-university-peer-ranking .upr-controls{padding:20px 26px 10px;background:#fff;}
+    #gvm-university-peer-ranking .upr-controls{padding:16px 26px 8px;background:#fff;}
     #gvm-university-peer-ranking .upr-tabs{display:flex;flex-wrap:wrap;gap:10px;}
-    #gvm-university-peer-ranking .upr-tab{appearance:none;border:1px solid rgba(239,91,0,.22);background:#fff;border-radius:999px;padding:10px 14px;font-size:15px;line-height:1;font-weight:800;color:#5b341e;cursor:pointer;transition:.18s ease;}
+    #gvm-university-peer-ranking .upr-tab{appearance:none;border:1px solid rgba(239,91,0,.22);background:#fff;border-radius:999px;padding:9px 13px;font-size:15px;line-height:1;font-weight:800;color:#5b341e;cursor:pointer;transition:.18s ease;}
     #gvm-university-peer-ranking .upr-tab:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(239,91,0,.10);}
     #gvm-university-peer-ranking .upr-tab[aria-selected="true"]{background:var(--orange);color:#fff;border-color:var(--orange);box-shadow:0 10px 22px rgba(239,91,0,.22);}
     #gvm-university-peer-ranking .upr-select-wrap{display:none;}
-    #gvm-university-peer-ranking .upr-meta{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding:12px 30px 20px;border-bottom:1px solid rgba(216,193,173,.7);}
-    #gvm-university-peer-ranking .upr-current{font-size:32px;font-weight:900;line-height:1.25;}
+    #gvm-university-peer-ranking .upr-meta{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding:10px 30px 14px;border-bottom:1px solid rgba(216,193,173,.7);}
+    #gvm-university-peer-ranking .upr-current{font-size:30px;font-weight:900;line-height:1.25;}
     #gvm-university-peer-ranking .upr-note{font-size:14px;color:var(--muted);line-height:1.6;text-align:right;}
-    #gvm-university-peer-ranking .upr-table-wrap{padding:0 30px 24px;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+    #gvm-university-peer-ranking .upr-table-wrap{padding:0 30px 18px;overflow-x:auto;-webkit-overflow-scrolling:touch;}
     #gvm-university-peer-ranking table{width:100%;border-collapse:separate;border-spacing:0;min-width:620px;font-variant-numeric:tabular-nums;}
-    #gvm-university-peer-ranking th{color:#fff;text-align:left;font-size:20px;font-weight:900;padding:16px 18px;border-bottom:0;white-space:nowrap;}
+    #gvm-university-peer-ranking th{color:#fff;text-align:left;font-size:19px;font-weight:900;padding:12px 18px;border-bottom:0;white-space:nowrap;}
     #gvm-university-peer-ranking th:first-child{background:var(--orange);border-top-left-radius:10px;width:68%;}
     #gvm-university-peer-ranking th:nth-child(2){background:var(--blue);text-align:center;width:15%;box-shadow:inset 14px 0 18px rgba(0,0,0,.15);}
     #gvm-university-peer-ranking th:nth-child(3){background:var(--blue2);text-align:center;border-top-right-radius:10px;width:17%;}
-    #gvm-university-peer-ranking td{font-size:22px;font-weight:800;padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:middle;}
+    #gvm-university-peer-ranking td{font-size:20px;font-weight:800;padding:9px 18px;border-bottom:1px solid var(--line);vertical-align:middle;line-height:1.28;}
     #gvm-university-peer-ranking tr:nth-child(odd) td{background:var(--cream);}
     #gvm-university-peer-ranking tr:nth-child(even) td{background:#fff;}
-    #gvm-university-peer-ranking td:nth-child(2),#gvm-university-peer-ranking td:nth-child(3){text-align:center;font-size:24px;font-weight:700;border-left:1px solid rgba(216,193,173,.65);}
-    #gvm-university-peer-ranking .rank-no{display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:38px;border-radius:12px;background:rgba(0,151,183,.10);color:#075b70;font-weight:900;}
+    #gvm-university-peer-ranking td:nth-child(2),#gvm-university-peer-ranking td:nth-child(3){text-align:center;font-size:21px;font-weight:700;border-left:1px solid rgba(216,193,173,.65);}
+    #gvm-university-peer-ranking .rank-no{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;border-radius:10px;background:rgba(0,151,183,.10);color:#075b70;font-weight:900;}
     #gvm-university-peer-ranking tr:nth-child(1) .rank-no{background:#fff3dc;color:#bf6200;}
-    #gvm-university-peer-ranking .diff{display:inline-flex;align-items:center;justify-content:center;min-width:58px;padding:5px 9px;border-radius:999px;font-size:18px;font-weight:900;}
+    #gvm-university-peer-ranking .diff{display:inline-flex;align-items:center;justify-content:center;min-width:48px;padding:3px 8px;border-radius:999px;font-size:16px;font-weight:900;}
     #gvm-university-peer-ranking .same{background:#f3f4f6;color:#374151;}
     #gvm-university-peer-ranking .up{background:#fff1e6;color:#d04f00;}
     #gvm-university-peer-ranking .down{background:#eef7fb;color:#007894;}
     #gvm-university-peer-ranking .new{background:#111;color:#fff;min-width:76px;}
-    #gvm-university-peer-ranking .upr-foot{padding:18px 30px 24px;background:#fafafa;color:#4b5563;font-size:14px;line-height:1.75;border-top:1px solid #eee;}
+    #gvm-university-peer-ranking .upr-foot{padding:16px 30px 22px;background:#fafafa;color:#4b5563;font-size:14px;line-height:1.75;border-top:1px solid #eee;}
     #gvm-university-peer-ranking .upr-foot-title{font-weight:900;color:#111827;font-size:16px;margin-bottom:6px;}
     #gvm-university-peer-ranking .upr-survey-list{margin:0;padding:0;list-style:none;}
     #gvm-university-peer-ranking .upr-survey-list li{margin:2px 0;}
     #gvm-university-peer-ranking .upr-survey-list b{font-weight:800;color:#111827;}
-    @media(max-width:760px){#gvm-university-peer-ranking{margin:18px auto;}#gvm-university-peer-ranking .upr-head{padding:22px 18px 18px;}#gvm-university-peer-ranking .upr-title{font-size:28px;}#gvm-university-peer-ranking .upr-controls{padding:16px 16px 8px;}#gvm-university-peer-ranking .upr-tabs{display:none;}#gvm-university-peer-ranking .upr-select-wrap{display:block;}#gvm-university-peer-ranking .upr-select{width:100%;padding:13px 14px;border-radius:12px;border:1px solid rgba(239,91,0,.35);background:#fff;font-size:16px;font-weight:800;color:#111;}#gvm-university-peer-ranking .upr-meta{padding:12px 18px 18px;align-items:flex-start;flex-direction:column;}#gvm-university-peer-ranking .upr-current{font-size:28px;}#gvm-university-peer-ranking .upr-note{text-align:left;}#gvm-university-peer-ranking .upr-table-wrap{padding:0 14px 18px;}#gvm-university-peer-ranking table{min-width:0;}#gvm-university-peer-ranking th{font-size:16px;padding:12px 10px;}#gvm-university-peer-ranking th:first-child{width:60%;}#gvm-university-peer-ranking th:nth-child(2){width:18%;}#gvm-university-peer-ranking th:nth-child(3){width:22%;}#gvm-university-peer-ranking td{font-size:18px;padding:13px 10px;}#gvm-university-peer-ranking td:nth-child(2),#gvm-university-peer-ranking td:nth-child(3){font-size:18px;}#gvm-university-peer-ranking .rank-no{min-width:32px;height:32px;border-radius:10px;}#gvm-university-peer-ranking .diff{min-width:48px;font-size:15px;padding:4px 7px;}#gvm-university-peer-ranking .new{min-width:62px;}#gvm-university-peer-ranking .upr-foot{padding:12px 18px 18px;}}
+    @media(max-width:760px){#gvm-university-peer-ranking{margin:18px auto;}#gvm-university-peer-ranking .upr-head{padding:22px 18px 18px;}#gvm-university-peer-ranking .upr-title{font-size:28px;}#gvm-university-peer-ranking .upr-controls{padding:16px 16px 8px;}#gvm-university-peer-ranking .upr-tabs{display:none;}#gvm-university-peer-ranking .upr-select-wrap{display:block;}#gvm-university-peer-ranking .upr-select{width:100%;padding:13px 14px;border-radius:12px;border:1px solid rgba(239,91,0,.35);background:#fff;font-size:16px;font-weight:800;color:#111;}#gvm-university-peer-ranking .upr-meta{padding:12px 18px 18px;align-items:flex-start;flex-direction:column;}#gvm-university-peer-ranking .upr-current{font-size:28px;}#gvm-university-peer-ranking .upr-note{text-align:left;}#gvm-university-peer-ranking .upr-table-wrap{padding:0 14px 18px;}#gvm-university-peer-ranking table{min-width:0;}#gvm-university-peer-ranking th{font-size:16px;padding:12px 10px;}#gvm-university-peer-ranking th:first-child{width:60%;}#gvm-university-peer-ranking th:nth-child(2){width:18%;}#gvm-university-peer-ranking th:nth-child(3){width:22%;}#gvm-university-peer-ranking td{font-size:17px;padding:10px 10px;}#gvm-university-peer-ranking td:nth-child(2),#gvm-university-peer-ranking td:nth-child(3){font-size:18px;}#gvm-university-peer-ranking .rank-no{min-width:28px;height:28px;border-radius:9px;}#gvm-university-peer-ranking .diff{min-width:44px;font-size:14px;padding:3px 7px;}#gvm-university-peer-ranking .new{min-width:62px;}#gvm-university-peer-ranking .upr-foot{padding:12px 18px 18px;}}
   </style>
   <div class="upr-card">
     <div class="upr-head">
@@ -75,22 +75,23 @@
   (function(){
     const data={
       "總體競爭力":[["國立臺灣大學",1,"0"],["國立成功大學",2,"0"],["國立清華大學",3,"0"],["國立陽明交通大學",4,"0"],["國立臺灣科技大學",5,"0"],["國立政治大學",6,"0"],["國立中山大學",7,"1"],["國立臺灣師範大學",8,"1"],["國立中央大學",9,"4"],["國立中興大學",10,"1"],["臺北醫學大學",11,"-1"],["國立臺北科技大學",12,"-5"],["逢甲大學",13,"-1"],["輔仁大學",14,"0"],["東海大學",15,"0"],["中原大學",16,"0"],["中國醫藥大學",17,"3"],["國立中正大學",18,"9"],["國立雲林科技大學",18,"-1"],["國立暨南國際大學",20,"22"],["淡江大學",21,"-2"],["國立臺北大學",22,"5"],["朝陽科技大學",23,"3"],["長庚大學",24,"-2"],["東吳大學",25,"-1"],["國立高雄科技大學",26,"-5"],["臺北市立大學",27,"14"],["高雄醫學大學",28,"2"],["國立臺灣海洋大學",29,"-2"],["國立嘉義大學",30,"8"]],
-      "教育":[["國立臺灣師範大學",1,"0"],["國立臺灣大學",2,"0"],["國立政治大學",3,"0"],["國立彰化師範大學",4,"1"],["國立高雄師範大學",5,"-1"],["國立臺北教育大學",6,"0"],["國立清華大學",7,"0"],["國立成功大學",8,"0"],["國立臺中教育大學",9,"0"],["國立陽明交通大學",10,"0"]],
-      "藝術":[["國立臺灣藝術大學",1,"0"],["國立臺北藝術大學",2,"0"],["國立臺灣師範大學",3,"1"],["國立臺南藝術大學",4,"-1"],["實踐大學",5,"3"],["國立臺灣大學",6,"0"],["國立臺灣戲曲學院",7,"-2"],["東海大學",8,"-1"],["國立成功大學",9,"9"],["輔仁大學",10,"1"]],
-      "文史哲":[["國立臺灣大學",1,"1"],["國立政治大學",2,"-1"],["國立臺灣師範大學",3,"0"],["輔仁大學",4,"3"],["國立成功大學",5,"0"],["國立清華大學",6,"-2"],["東海大學",7,"-1"],["佛光大學",8,"33"],["慈濟大學",9,"13"],["華梵大學",10,"22"]],
-      "語文":[["國立臺灣大學",1,"0"],["國立政治大學",2,"1"],["國立臺灣師範大學",3,"-1"],["文藻外語大學",4,"0"],["輔仁大學",5,"0"],["國立清華大學",6,"0"],["國立成功大學",7,"0"],["淡江大學",8,"0"],["東吳大學",9,"0"],["國立中山大學",10,"1"]],
-      "社會及行為科學":[["國立政治大學",1,"0"],["國立臺灣大學",2,"0"],["國立成功大學",3,"3"],["國立清華大學",4,"0"],["國立臺灣師範大學",5,"-2"],["國立臺北大學",6,"3"],["國立中山大學",7,"-2"],["東吳大學",8,"3"],["國立中正大學",9,"1"],["東海大學",10,"-2"]],
-      "大眾傳播":[["國立政治大學",1,"0"],["世新大學",2,"0"],["輔仁大學",3,"0"],["國立臺灣大學",4,"0"],["銘傳大學",5,"0"],["國立臺灣師範大學",6,"0"],["淡江大學",7,"1"],["國立臺灣藝術大學",8,"-1"],["實踐大學",9,"2"],["中國文化大學",10,"0"]],
-      "商業管理":[["國立臺灣大學",1,"0"],["國立政治大學",2,"0"],["國立成功大學",3,"1"],["國立中山大學",4,"-1"],["國立臺北大學",5,"0"],["國立中興大學",6,"0"],["國立清華大學",7,"1"],["國立臺北商業大學",8,"-1"],["國立中央大學",9,"5"],["國立陽明交通大學",10,"5"]],
-      "法律":[["國立臺灣大學",1,"0"],["國立政治大學",2,"0"],["東吳大學",3,"0"],["國立臺北大學",4,"0"],["國立中興大學",5,"0"],["國立成功大學",6,"0"],["輔仁大學",7,"0"],["國立中正大學",8,"0"],["東海大學",9,"0"],["國立陽明交通大學",10,"2"]],
-      "自然數學及統計":[["國立臺灣大學",1,"0"],["國立清華大學",2,"0"],["國立成功大學",3,"0"],["國立陽明交通大學",4,"0"],["國立中央大學",5,"0"],["國立臺灣師範大學",6,"1"],["國立政治大學",7,"3"],["國立中興大學",8,"-2"],["國立中山大學",9,"-1"],["國立臺灣科技大學",10,"-1"]],
-      "資訊通訊科技":[["國立臺灣大學",1,"0"],["國立陽明交通大學",2,"0"],["國立清華大學",3,"0"],["國立成功大學",4,"0"],["國立臺灣科技大學",5,"0"],["國立中央大學",6,"0"],["國立中山大學",7,"1"],["國立臺北科技大學",8,"-1"],["國立中正大學",9,"5"],["國立臺灣師範大學",10,"14"]],
-      "工程、製造及營建":[["國立成功大學",1,"0"],["國立臺灣大學",2,"0"],["國立臺灣科技大學",3,"0"],["國立清華大學",4,"0"],["國立陽明交通大學",5,"0"],["國立臺北科技大學",6,"0"],["國立中央大學",7,"0"],["國立雲林科技大學",8,"4"],["中原大學",9,"0"],["國立中興大學",10,"0"]],
-      "農業、林業、漁業及獸醫":[["國立臺灣大學",1,"1"],["國立中興大學",2,"-1"],["國立屏東科技大學",3,"0"],["國立嘉義大學",4,"1"],["國立臺灣海洋大學",5,"-1"],["國立宜蘭大學",6,"1"],["國立成功大學",7,"2"],["東海大學",8,"0"],["國立澎湖科技大學",9,"2"],["國立中山大學",10,"2"]],
-      "醫藥衛生及社會福利":[["國立臺灣大學",1,"0"],["國立陽明交通大學",2,"1"],["臺北醫學大學",3,"-1"],["國立成功大學",4,"0"],["中國醫藥大學",5,"0"],["高雄醫學大學",6,"0"],["長庚大學",7,"0"],["中山醫學大學",8,"0"],["國防醫學大學",9,"新入榜"],["輔仁大學",10,"0"]],
-      "服務":[["國立高雄餐旅大學",1,"0"],["國立政治大學",2,"0"],["國立臺灣大學",3,"0"],["輔仁大學",4,"0"],["國立成功大學",5,"0"],["東海大學",6,"0"],["國立臺灣師範大學",7,"0"],["淡江大學",8,"1"],["國立暨南國際大學",9,"5"],["銘傳大學",10,"6"]]
+      "教育領域":[["國立臺灣師範大學",1,"0"],["國立臺灣大學",2,"0"],["國立政治大學",3,"0"],["國立彰化師範大學",4,"1"],["國立高雄師範大學",5,"-1"],["國立臺北教育大學",6,"0"],["國立清華大學",7,"0"],["國立成功大學",8,"0"],["國立臺中教育大學",9,"0"],["國立陽明交通大學",10,"0"]],
+      "藝術領域":[["國立臺灣藝術大學",1,"0"],["國立臺北藝術大學",2,"0"],["國立臺灣師範大學",3,"1"],["國立臺南藝術大學",4,"-1"],["實踐大學",5,"3"],["國立臺灣大學",6,"0"],["國立臺灣戲曲學院",7,"-2"],["東海大學",8,"-1"],["國立成功大學",9,"9"],["輔仁大學",10,"1"]],
+      "文史哲領域":[["國立臺灣大學",1,"1"],["國立政治大學",2,"-1"],["國立臺灣師範大學",3,"0"],["輔仁大學",4,"3"],["國立成功大學",5,"0"],["國立清華大學",6,"-2"],["東海大學",7,"-1"],["佛光大學",8,"33"],["慈濟大學",9,"13"],["華梵大學",10,"22"]],
+      "語文領域":[["國立臺灣大學",1,"0"],["國立政治大學",2,"1"],["國立臺灣師範大學",3,"-1"],["文藻外語大學",4,"0"],["輔仁大學",5,"0"],["國立清華大學",6,"0"],["國立成功大學",7,"0"],["淡江大學",8,"0"],["東吳大學",9,"0"],["國立中山大學",10,"1"]],
+      "社會及行為科學領域":[["國立政治大學",1,"0"],["國立臺灣大學",2,"0"],["國立成功大學",3,"3"],["國立清華大學",4,"0"],["國立臺灣師範大學",5,"-2"],["國立臺北大學",6,"3"],["國立中山大學",7,"-2"],["東吳大學",8,"3"],["國立中正大學",9,"1"],["東海大學",10,"-2"]],
+      "大眾傳播領域":[["國立政治大學",1,"0"],["世新大學",2,"0"],["輔仁大學",3,"0"],["國立臺灣大學",4,"0"],["銘傳大學",5,"0"],["國立臺灣師範大學",6,"0"],["淡江大學",7,"1"],["國立臺灣藝術大學",8,"-1"],["實踐大學",9,"2"],["中國文化大學",10,"0"]],
+      "商業管理領域":[["國立臺灣大學",1,"0"],["國立政治大學",2,"0"],["國立成功大學",3,"1"],["國立中山大學",4,"-1"],["國立臺北大學",5,"0"],["國立中興大學",6,"0"],["國立清華大學",7,"1"],["國立臺北商業大學",8,"-1"],["國立中央大學",9,"5"],["國立陽明交通大學",10,"5"]],
+      "法律領域":[["國立臺灣大學",1,"0"],["國立政治大學",2,"0"],["東吳大學",3,"0"],["國立臺北大學",4,"0"],["國立中興大學",5,"0"],["國立成功大學",6,"0"],["輔仁大學",7,"0"],["國立中正大學",8,"0"],["東海大學",9,"0"],["國立陽明交通大學",10,"2"]],
+      "自然數學及統計領域":[["國立臺灣大學",1,"0"],["國立清華大學",2,"0"],["國立成功大學",3,"0"],["國立陽明交通大學",4,"0"],["國立中央大學",5,"0"],["國立臺灣師範大學",6,"1"],["國立政治大學",7,"3"],["國立中興大學",8,"-2"],["國立中山大學",9,"-1"],["國立臺灣科技大學",10,"-1"]],
+      "資訊通訊科技領域":[["國立臺灣大學",1,"0"],["國立陽明交通大學",2,"0"],["國立清華大學",3,"0"],["國立成功大學",4,"0"],["國立臺灣科技大學",5,"0"],["國立中央大學",6,"0"],["國立中山大學",7,"1"],["國立臺北科技大學",8,"-1"],["國立中正大學",9,"5"],["國立臺灣師範大學",10,"14"]],
+      "工程、製造及營建領域":[["國立成功大學",1,"0"],["國立臺灣大學",2,"0"],["國立臺灣科技大學",3,"0"],["國立清華大學",4,"0"],["國立陽明交通大學",5,"0"],["國立臺北科技大學",6,"0"],["國立中央大學",7,"0"],["國立雲林科技大學",8,"4"],["中原大學",9,"0"],["國立中興大學",10,"0"]],
+      "農業、林業、漁業及獸醫領域":[["國立臺灣大學",1,"1"],["國立中興大學",2,"-1"],["國立屏東科技大學",3,"0"],["國立嘉義大學",4,"1"],["國立臺灣海洋大學",5,"-1"],["國立宜蘭大學",6,"1"],["國立成功大學",7,"2"],["東海大學",8,"0"],["國立澎湖科技大學",9,"2"],["國立中山大學",10,"2"]],
+      "醫藥衛生及社會福利領域":[["國立臺灣大學",1,"0"],["國立陽明交通大學",2,"1"],["臺北醫學大學",3,"-1"],["國立成功大學",4,"0"],["中國醫藥大學",5,"0"],["高雄醫學大學",6,"0"],["長庚大學",7,"0"],["中山醫學大學",8,"0"],["國防醫學大學",9,"新入榜"],["輔仁大學",10,"0"]],
+      "服務領域":[["國立高雄餐旅大學",1,"0"],["國立政治大學",2,"0"],["國立臺灣大學",3,"0"],["輔仁大學",4,"0"],["國立成功大學",5,"0"],["東海大學",6,"0"],["國立臺灣師範大學",7,"0"],["淡江大學",8,"1"],["國立暨南國際大學",9,"5"],["銘傳大學",10,"6"]]
     };
     const order=Object.keys(data);
+    function displayLabel(name){return name.replace(/領域$/," ").trim();}
     const root=document.getElementById('gvm-university-peer-ranking');
     const tabs=root.querySelector('.upr-tabs');
     const select=root.querySelector('.upr-select');
@@ -99,13 +100,13 @@
     let current=order[0];
     function diffClass(v){ if(String(v)==='新入榜') return 'new'; const n=Number(v); if(n>0) return 'up'; if(n<0) return 'down'; return 'same'; }
     function diffText(v){ if(String(v)==='新入榜') return '新入榜'; const n=Number(v); if(n>0) return '+'+n; return String(v); }
-    function render(name){ current=name; title.textContent=name; body.innerHTML=data[name].map(function(row){return '<tr><td>'+row[0]+'</td><td><span class="rank-no">'+row[1]+'</span></td><td><span class="diff '+diffClass(row[2])+'">'+diffText(row[2])+'</span></td></tr>';}).join('');
+    function render(name){ current=name; title.textContent=displayLabel(name); body.innerHTML=data[name].map(function(row){return '<tr><td>'+row[0]+'</td><td><span class="rank-no">'+row[1]+'</span></td><td><span class="diff '+diffClass(row[2])+'">'+diffText(row[2])+'</span></td></tr>';}).join('');
       tabs.querySelectorAll('.upr-tab').forEach(function(btn){btn.setAttribute('aria-selected',btn.dataset.key===name?'true':'false');});
       select.value=name;
     }
     order.forEach(function(name){
-      const b=document.createElement('button'); b.type='button'; b.className='upr-tab'; b.dataset.key=name; b.textContent=name; b.setAttribute('role','tab'); b.setAttribute('aria-selected','false'); b.addEventListener('click',function(){render(name);}); tabs.appendChild(b);
-      const o=document.createElement('option'); o.value=name; o.textContent=name; select.appendChild(o);
+      const b=document.createElement('button'); b.type='button'; b.className='upr-tab'; b.dataset.key=name; b.textContent=displayLabel(name); b.setAttribute('role','tab'); b.setAttribute('aria-selected','false'); b.addEventListener('click',function(){render(name);}); tabs.appendChild(b);
+      const o=document.createElement('option'); o.value=name; o.textContent=displayLabel(name); select.appendChild(o);
     });
     select.addEventListener('change',function(){render(this.value);});
     render(current);
